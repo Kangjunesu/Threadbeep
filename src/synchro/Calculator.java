@@ -7,7 +7,7 @@ public class Calculator {  //공유 객체
         return memory;
     }
 
-    public void setMemory(int memory) { //계산기 메모리에 값을 저장하는 메서드
+    public synchronized void setMemory(int memory) { //계산기 메모리에 값을 저장하는 메서드
         this.memory = memory;
         try{
             Thread.sleep(2000);
