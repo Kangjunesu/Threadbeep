@@ -3,8 +3,8 @@ import java.awt.*;
 public class Main {  // 메인 스레드 : 출력
 
     public static void main(String[] args) {
-      Runnable beepTask = new BeepTask();
-      Thread thread = new Thread(beepTask);
+
+      Thread thread = new Thread();
       thread.start();
 
         for(int i =0; i<5; i++){

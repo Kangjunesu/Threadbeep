@@ -1,6 +1,6 @@
 import java.awt.*;
 
-public class BeepTask implements Runnable { // 작업 스레드 : 비프음
+public class BeepTask extends Thread { // 작업 스레드 : 비프음
     @Override
     public void run() {
         Toolkit toolkit = Toolkit.getDefaultToolkit(); // Toolkit 객체 얻기
