@@ -1,3 +1,5 @@
+package beep;
+
 import java.awt.*;
 
 public class Main {  // 메인 스레드 : 출력

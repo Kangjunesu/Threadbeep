@@ -1,3 +1,5 @@
+package beep;
+
 import java.awt.*;
 
 public class BeepTask extends Thread { // 작업 스레드 : 비프음
